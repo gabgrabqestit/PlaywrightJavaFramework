@@ -28,7 +28,7 @@ public class BaseTest {
         Properties properties = new Properties();
         FileInputStream fis = new FileInputStream("src/test/resources/config.properties");
         properties.load(fis);
-        //mvn test -PRegression -Dbrowser=chrome -Denv=dev
+        //mvn test -PSmoke -Dbrowser=chrome -Denv=dev
 
         String browserName = System.getProperty("browser") !=null
                 ? System.getProperty("browser")
