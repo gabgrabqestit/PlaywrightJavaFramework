@@ -37,3 +37,10 @@ build/
 
 ### Mac OS ###
 .DS_Store
+### Playwright traces and captures
+**/.playwright-mcp/
+trace.zip
+trace-*.zip
+*.trace.zip
+playwright-report/
+test-results/
